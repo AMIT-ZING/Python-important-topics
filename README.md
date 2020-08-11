@@ -65,7 +65,7 @@ print(dir(I_list))
 '__subclasshook__']
 ```
 Here we have the `__next__` method. Hence the list has become an iterator.  
-The `__next__()` method returns the next value and it also remembers where it left off last time.  
+The `next() or __next__()` method returns the next value and it also remembers where it left off last time.  
 
 ```python
     print(next(i_list))
