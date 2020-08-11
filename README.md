@@ -86,6 +86,20 @@ The `__next__()` method returns the next value and it also remembers where it le
 
 `NOTE: Integers are not iterable`
 
+### Looping through an iterator :
+#### e.g.
+```
+list = ["apple", "banana", "mango"]
 
+for i in list:
+    print(i)
+```
+#### OUTPUT :
+```
+apple
+banana
+mango
+```
 
+Here the `for in` loop automatically creates an iterator object and executes the next() method for each loop.
 
