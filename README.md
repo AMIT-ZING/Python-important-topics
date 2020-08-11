@@ -88,7 +88,7 @@ The `next() or __next__()` method returns the next value and it also remembers w
 
 ### Looping through an iterator :
 #### e.g.
-```
+```python
 list = ["apple", "banana", "mango"]
 
 for i in list:
