@@ -84,7 +84,7 @@ The `__next__()` method returns the next value and it also remembers where it le
 7
 ```
 
-`NOTE: Integers are not iterable`
+*NOTE: Integers are not iterable*
 
 ### Looping through an iterator :
 #### e.g.
