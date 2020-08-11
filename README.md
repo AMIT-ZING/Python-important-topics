@@ -8,10 +8,10 @@ Iterables are something that can be looped over
 ### e.g.
 A list can be called iterable as we can loop over a list  
 
-'''python
+```python
 list = [1, 2, 4, 6, 7]
 
 for i in list:
     print(i)
-'''    
+```    
 
