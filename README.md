@@ -125,8 +125,8 @@ If a function contains at least one yield statement, it becomes a generator func
 *NOTE: Both yield and return will return some value from a function.The difference is that while a return statement terminates a function entirely, yield statement pauses the function saving all its states and later continues from there on successive calls.*
 
 ### Differences between Generator function and Normal function :
-Generator function | Normal function
-------------------------------------
-                   |
+|Generator function | Normal function|
+---|---
+                   
 
 
