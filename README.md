@@ -103,3 +103,10 @@ mango
 
 Here the `for in` loop automatically creates an iterator object and executes the next() method for each loop.
 
+### Why use iterators ?
+Why should we use iterator functions and not the normal functions ?  
+Iterator functions are used while dealing with large data or big numbers.  
+For example if we want all the numbers between 0 and 1000000000000, using normal function will take a lot of memory space as it generates the numbers all at once.  
+To avoid this huge memorey consumption we use iterators because iterator generates the numbers on the fly one by one when required instead of generating all at once.  
+
+
