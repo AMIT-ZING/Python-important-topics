@@ -126,10 +126,8 @@ If a function contains at least one yield statement, it becomes a generator func
 
 ### Differences between Generator function and Normal function :
 |          Generator function            |             Normal function          |
-|:---------------------------------------|-------------------------------------:|
+|:---------------------------------------|:-------------------------------------|
 | contains one or more yield statements. | contains return statements           |
-|----------------------------------------+--------------------------------------|
 |When called, it returns an object (iterator) but does not start execution immediately. | When called, it starts execution immediately |
-|----------------------------------------+--------------------------------------|
-
+|Once the function yields, the function is paused. | Once the function returns, the function is terminated |
 
