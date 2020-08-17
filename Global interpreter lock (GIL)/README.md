@@ -17,7 +17,7 @@ ref count of a = 1
 ref count of b = 1
 
                           _______________            ___________             _______________   
-                                |               |          |   empty   |           |               |  
+                         |               |          |   empty   |           |               |  
                          |               |          |    list   |           |               |  
                          |       a       |--------->|    [ ]    |<----------|       b       |  
                          |               |          |     2     |           |               |  
@@ -33,4 +33,3 @@ We can calculate the ref count of the object ,
 It gives reference ouunt of 3 instead of 2 because the "sys.getrefcount" will add its own ref count in the total.
 After the "getrefcount" exits, the total ref count will drop to 2 again
 
-                            aaaaaaabbbbbbbbbbbbbbbbbbbbbbb
