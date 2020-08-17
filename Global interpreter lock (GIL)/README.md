@@ -9,4 +9,5 @@ If you’ve got some experience in Python and want to speed up your program usin
 *NOTE: A thread is a separate flow of execution. This means that your program will have two things happening at once.  
        But the different threads do not actually execute at the same time: they merely appear to.*  
        
-                                   a                                   b     
+**REFERENCE COUNTING :**  
+a = []       -        an empty python list
