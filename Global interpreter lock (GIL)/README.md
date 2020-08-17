@@ -5,5 +5,5 @@ We will talk about the problem created by threads in a while but first take a lo
 Python threading allows you to have different parts of your program run concurrently and can simplify your design.  
 If you’ve got some experience in Python and want to speed up your program using threads, then this tutorial is for you!  
 
--NOTE: A thread is a separate flow of execution. This means that your program will have two things happening at once.  
-       But the different threads do not actually execute at the same time: they merely appear to.-
+*NOTE: A thread is a separate flow of execution. This means that your program will have two things happening at once.  
+       But the different threads do not actually execute at the same time: they merely appear to.*
