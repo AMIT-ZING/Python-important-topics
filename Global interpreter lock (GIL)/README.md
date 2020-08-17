@@ -17,8 +17,8 @@ ref count of a = 1
 ref count of b = 1
 
                           _______________            ___________             _______________   
-                         |               |          |   empty   |           |               |  
-                         |               |          |    list   |           |               |  
+                         |               |          |           |           |               |  
+                         |               |          |empty list |           |               |  
                          |       a       |--------->|    [ ]    |<----------|       b       |  
                          |               |          |     2     |           |               |  
                          |_______________|          |___________|           |_______________|                           
@@ -31,5 +31,6 @@ We can calculate the ref count of the object ,
     3
     
 It gives reference ouunt of 3 instead of 2 because the "sys.getrefcount" will add its own ref count in the total.
-After the "getrefcount" exits, the total ref count will drop to 2 again
+After the "getrefcount" exits, the total ref count will drop to 2 again.  
+This is how ref count works on python.
 
