@@ -10,7 +10,7 @@ If you’ve got some experience in Python and want to speed up your program usin
        But the different threads do not actually execute at the same time: they merely appear to.*  
        
 **REFERENCE COUNTING :**  
->>> a = []       <-        an empty python list
+/>>> a = []       <-        an empty python list
 >>> a = b
 
 ref count of a = 1
