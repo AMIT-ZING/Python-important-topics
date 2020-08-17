@@ -16,8 +16,8 @@ If you’ve got some experience in Python and want to speed up your program usin
 ref count of a = 1
 ref count of b = 1
 
-`                          _______________            ___________             _______________   `
-`                         |               |          |   empty   |           |               |  `
+`                          _______________              _____________               _______________   `
+`                         |               |             |   empty   |               |               |  `
 `                         |               |          |    list   |           |               |  `
 `                         |       a       |--------->|    [ ]    |<----------|       b       |  `
 `                         |               |          |     2     |           |               |  `
