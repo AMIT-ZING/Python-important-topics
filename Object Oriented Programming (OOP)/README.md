@@ -7,6 +7,28 @@ which are used to create individual instances of objects.
 OOP makes code organized, reusable, and easy to maintain.  
 Benefits of OOP include security: OOP prevents unwanted access to data, or exposing proprietary code through encapsulation and abstraction.
 
+### Building blocks of OOP :
+- classes
+- objects
+- methods
+- attributes
+
+#### Classes :
+In a nutshell, they’re essentially user defined data types. Classes are where the programmer creates a blueprint for the structure of methods and attributes.  
+Individual objects are instantiated, or created from this blueprint.
+
+#### Objects :
+Objects are instances of classes created with specific data.
+
+#### Attributes :
+Attributes are the information that is stored. Attributes are defined in the Class template.  
+When objects are instantiated individual objects contain data stored in the Attributes field.  
+The state of an object is defined by the data in the object’s attributes fields.
+
+#### Methods
+Methods represent behaviors. Methods perform actions; methods might return information about an object, or update an object’s data.  
+The method’s code is defined in the class definition. When individual objects are instantiated, these objects can call the methods defined in the class.
+
 ## Four principles of OOP:
 
 #### 1. Inheritance
