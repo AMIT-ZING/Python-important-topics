@@ -59,8 +59,19 @@ Now whatever changes the function does on the reference object is stored in the 
 Hence the statement `print(x)` prints `[222, 2, 3, 4]` as it is instructed(changing the value of x[0] to 222) by the function and the `print(y)` statement also prints `[222, 2, 3, 4]` which is the changed value as you can see.
 
 ## Pass/call by object reference:
+In Python, almost everything is an object. In Python, Values are passed to function by object reference.  
+In python the objects are of two types:  
+- Mutable (modifiable)
+- Immutable (not modifiable)
 
+If object is **mutable** then modified value is available outside the function. Means the modification will also change the original object.
+**e.g.**
+list, dict, set, byte array
 
+If object is **immutable** then the modified value is not available outside the function. Means the modification won't affect the original object.
+**e.g.**
+int, float, complex, string, tuple, frozen set [note: immutable version of set], bytes.  
 
+In the event that you pass arguments like whole numbers, strings or tuples to a function, the passing is like call-by-value because you can not change the value of the immutable objects being passed to the function. Whereas passing mutable objects can be considered as call by reference because when their values are changed inside the function, then it will also be reflected outside the function.
 
 
