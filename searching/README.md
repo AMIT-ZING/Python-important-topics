@@ -11,7 +11,6 @@ Let us take a sorted list(if the list is not sotrted then use `sort()` method to
 list = [1, 2, 3, 5, 7, 8, 9, 10]  
 
 **STEP-1: Dividing the list in two parts:**  
-
 lower position = 0  
 
 upper position (= length of the list - 1 = 8 - 1) = 7  
@@ -24,7 +23,6 @@ The list got divided into two parts: 1, 2, 3, 5 & 7, 8, 9, 10
 *NOTE: '//' flood division -> gives the value without the decimal part*  
 
 **STEP-2: checking for the result**  
-
 We will compare the mid value with the item to be searched.  
 
 Suppose we are searching 9 in the list, key = 9  
