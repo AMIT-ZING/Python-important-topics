@@ -11,6 +11,7 @@ Let us take a sorted list(if the list is not sotrted then use `sort()` method to
 list = [1, 2, 3, 5, 7, 8, 9, 10]  
 
 **STEP-1: Dividing the list in two parts:**  
+
 lower position = 0  
 
 upper position (= length of the list - 1 = 8 - 1) = 7  
@@ -22,7 +23,9 @@ The list got divided into two parts: 1, 2, 3, 5 & 7, 8, 9, 10
 
 *NOTE: '//' flood division -> gives the value without the decimal part*  
 
+
 **STEP-2: checking for the result**  
+
 We will compare the mid value with the item to be searched.  
 
 Suppose we are searching 9 in the list, key = 9  
@@ -34,6 +37,7 @@ If mid value is greater than the key value, we will take the right part(7, 8, 9,
 
 If we get the left part of the list then lower position will remain the same and the upper position will change, upper position = mid - 1 (i.e. 2nd position).  
 If we get the right part of the list then upper position will remain the same and the lower position will change, lower position = mid + 1 (i.e. 4th position).  
+
 
 No matter which part we get, we will apply step 1 & 2 again and again until we get the desired result.  
 
