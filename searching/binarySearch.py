@@ -1,3 +1,4 @@
+mid = 0
 
 def bSearch(list, key):
     lower = 0
@@ -20,6 +21,6 @@ myList = [1, 3, 4, 5, 8, 9]              # list provided by the user
 myKey = 3                                # item to be searched
 
 if bSearch(myList, myKey):
-    print("Item found at place: {}".format(mid+1))          # print stmt if the function returns true
+    print("Item found at place: {}".format(mid + 1))          # print stmt if the function returns true
 else:
     print("Item not found....")                             # print stmt if the function returns false
