@@ -11,3 +11,27 @@ We can say that a function in Python is First Class Function, if it supports all
 - You can pass the function as a parameter to another function.
 - You can return the function from a function.
 - You can store them in data structures such as hash tables, lists, …
+
+### You can store the function in a variable:
+In python, functions can be stored in variables.  
+**e.g.**  
+Let us make a function func1() with an argument "text"
+
+```python
+def func1(text):
+    print(text)
+```
+
+Assigning the function to a variable:
+```python
+variable = func1
+```
+
+*NOTE: giving `()` at the time of assigning will execute the function but if you assign the function without `()` then it only assigns the function to the variable without executing it*  
+
+Calling the function:  
+```python
+variable("My name is Sumit")
+```
+
+Here function takes an argument and since `variable = function`, the variable will take an argument at the time of calling it. 
