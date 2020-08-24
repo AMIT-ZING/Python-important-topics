@@ -33,7 +33,12 @@ variable = func1
 
 Calling the function:  
 ```python
-variable("My name is Sumit")
+variable("My name is Amit")
 ```
 
-Here function takes an argument and since `variable = function`, the variable will take an argument at the time of calling it. 
+Here function takes an argument and since `variable = function`, the variable will take an argument at the time of calling it.  
+
+**OUTPUT**  
+```
+My name is Amit
+```
