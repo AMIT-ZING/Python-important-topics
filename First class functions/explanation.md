@@ -14,8 +14,10 @@ We can say that a function in Python is First Class Function, if it supports all
 
 ### You can store the function in a variable:
 In python, functions can be stored in variables.  
+
 **e.g.**  
-Let us make a function func1() with an argument "text"
+
+Let us make a function `func1()` with an argument "text"
 
 ```python
 def func1(text):
