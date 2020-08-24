@@ -1,3 +1,4 @@
+mid = 0
 
 def bSearch(list, key):
     lower = 0
