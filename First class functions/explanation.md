@@ -42,3 +42,39 @@ Here function takes an argument and since `variable = function`, the variable wi
 ```
 My name is Amit
 ```
+
+### You can pass the function as a parameter to another function:
+
+In python, functions can be given as arguments to other functions.  
+
+**e.g.**  
+
+First lets define a function to be passed as the parameter,  
+
+```python
+def intro(text):
+    print(text)
+```
+
+Now lets make another function where the first function is gonna be passed as an argument,  
+
+```python
+def print_fn(func, text):
+    func(text)
+```
+Here `func` is passed as an argument.  
+Now lets call the `print_fn` function,
+
+```python
+print_fn(intro, "My name is Amit")
+```
+
+Here the `intro()` function is given as a parameter to the `print_fn()` function.  
+
+**OUTPUT:**  
+
+```
+My name is Amit
+```
+
+
