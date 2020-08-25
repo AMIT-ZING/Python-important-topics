@@ -77,4 +77,39 @@ Here the `intro()` function is given as a parameter to the `print_fn()` function
 My name is Amit
 ```
 
+### You can return the function from a function:
 
+In python, a function can be used as a return statement for another function.  
+
+**e.g.**  
+
+Lets see an example,  
+
+```python
+def name(text):
+    n = text
+
+    def print_fn():
+        print("My name is {}".format(n))
+
+    return print_fn
+```
+
+Here the inner function is being used as a return statement for the outer function.
+
+```python
+intro = name("Amit")
+```
+
+Now the outer function has been assigned to the variable `intro`.  
+We are gonna call the function with the help of the variable `intro`,
+
+```python
+intro()
+```
+
+**OUTPUT:**  
+
+```
+My name is Amit
+```
