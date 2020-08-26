@@ -52,7 +52,7 @@ add(7)                                     # giving add a parameter since increa
 Here the nested function(`increase_by()`) is being returned to the outer function. The outer/enclosing function is called with the parameter `5` and the nested function(`increase_by()`) is bound to the `add` variable. Hence the execution of the outer/enclosing function is done.  
 Now on calling `add(7)`, the execution is done without any problems, means `add()` remembered the variable `x` even after the execution of the enclosing function(`number()`) is already finished.  
 
-(*NOTE: the functionality of the nested/inner function depends on the variable of the outer function. i.e. `increase_by()` depends on non=local variable `x`*)  
+(*NOTE: the functionality of the nested/inner function depends on the variable of the outer function. i.e. `increase_by()` depends on non-local variable `x`*)  
 
 In other words the interpreter remembered the variable `x` in case the outer function goes away(finishes executing or gets deleted), **this technique of remembering some data is called CLOSURE**  
 
@@ -62,10 +62,17 @@ e.g.
 del number        # to delete the outer function
 
 add(7)
+
+number(5)         # calling the deleted outer function
 ```
 **OUTPUT:**
 ```
 12
+
+Traceback (most recent call last):
+  File "d:/python (spyder)/Python (important topics)/closures.py", line 16, in <module>
+    number(5)
+NameError: name 'number' is not defined
 ```
 
 As you can see `add` still gives an output even after `number()` got deleted(and with it the the variable `x` got deleted as well)
