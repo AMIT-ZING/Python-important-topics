@@ -5,7 +5,7 @@
 - ### [Multithreading](https://github.com/amitkumarsaw/Python-important-topics/tree/master/multiThreading)
 - ### [multiprocessing](https://github.com/amitkumarsaw/Python-important-topics/tree/master/MultiProcessing)
 - ### Global interpreter lock (GIL)
-- ### Searching in python
-- ### Call by object reference in python
+- ### [Searching in python](https://github.com/amitkumarsaw/Python-important-topics/tree/master/searching)
+- ### [Call by object reference in python](https://github.com/amitkumarsaw/Python-important-topics/tree/master/Call%20by%20object%20reference%20in%20python)
 - ### First class functions
-- ### Closures
+- ### [Closures](https://github.com/amitkumarsaw/Python-important-topics/tree/master/closures)
