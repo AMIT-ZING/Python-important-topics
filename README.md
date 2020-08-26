@@ -1,7 +1,7 @@
 # Python-important-topics
 
-- ### Iterators
-- ### Generators
+- ### [Iterators](https://github.com/amitkumarsaw/Python-important-topics/tree/master/Iterator)
+- ### [Generators](https://github.com/amitkumarsaw/Python-important-topics/tree/master/Generator)
 - ### Multithreading
 - ### multiprocessing
 - ### Global interpreter lock (GIL)
