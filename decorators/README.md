@@ -1,7 +1,7 @@
 # DECORATORS:
 A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.  
 
-**To understand decorators, let's see what NESTED FUNCTIONS and NON-LOCAL VARIABLES are:**  
+**To understand decorators, let's see what NESTED FUNCTIONS is:**  
 
 #### Nested functions:
 A function defined inside another function is called a nested function.  
@@ -16,27 +16,7 @@ def abc():
 
 Here,  
 - `xyz()` is the nested function.
-- `abc()` is the enclosing function.
-
-#### Non-local variables:
-Nested functions can access variables of the enclosing scope/function. These variables are called non-local variables as they are not local to the inner/nested function.  
-
-**e.g.**  
-
-```python
-def number(x):              # outer function or enclosing function
-
-    def increase_by(y):     # inner function or nested function
-        print(x + y)
-    
-    return increase_by      # return statement
-```
-
-Here,  
-- `number(x)` is the enclosing function or scope.
-- `increase_by(y)` is the nested/inner function.
-- `x` is the non-local variable since nested function can access the variable defined in the enclosing scope.
-- `y` can be called a local variable to the nested function.  
+- `abc()` is the enclosing function.   
 
 **Now that's done, let's understand decorators with an example:**  
 
