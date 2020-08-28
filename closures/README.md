@@ -9,6 +9,18 @@ Let's understand what closure actually is and for that lets see what is a nested
 #### Nested functions:
 A function defined inside another function is called a nested function.  
 
+e.g.  
+
+```python
+def abc():
+    def xyz():
+        print("this is an example of nested functions.....")
+```
+
+Here,  
+- `xyz()` is the nested function.
+- `abc()` is the enclosing function.
+
 #### Non-local variables:
 Nested functions can access variables of the enclosing scope/function. These variables are called non-local variables as they are not local to the inner/nested function.  
 
