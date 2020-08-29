@@ -10,3 +10,4 @@
 - ### [First class functions](https://github.com/amitkumarsaw/Python-important-topics/tree/master/First%20class%20functions)
 - ### [Closures](https://github.com/amitkumarsaw/Python-important-topics/tree/master/closures)
 - ### [Decorators](https://github.com/amitkumarsaw/Python-important-topics/tree/master/decorators)
+- ### [Monkey patching](https://github.com/amitkumarsaw/Python-important-topics/tree/master/monkey%20patching)
