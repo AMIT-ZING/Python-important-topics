@@ -9,3 +9,4 @@
 - ### [Call by object reference in python](https://github.com/amitkumarsaw/Python-important-topics/tree/master/Call%20by%20object%20reference%20in%20python)
 - ### [First class functions](https://github.com/amitkumarsaw/Python-important-topics/tree/master/First%20class%20functions)
 - ### [Closures](https://github.com/amitkumarsaw/Python-important-topics/tree/master/closures)
+- ### [Decorators](https://github.com/amitkumarsaw/Python-important-topics/tree/master/decorators)
