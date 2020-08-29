@@ -83,7 +83,7 @@ You can see, we have the new output as we wanted and we did in at runtime.
 ## Why to use it ?
 Suppose you made a library in python but now you need an object of the library to show a different functionality (different behaviour) then what will you do. Will you go and mess with the object in the library. It may create some other bugs in the library and it'll take more time. Under such situations monkey patching comes in play. You can just alter the behaviour of the object at runtime using monkey patching technique.
 
-
+*NOTE: If the object is mutable, monkey patching will alter the original object (no new memory location will be assigned), but if the object is immutable, monkey patching will just assign a new memory location to the altered object*
 
 
 
