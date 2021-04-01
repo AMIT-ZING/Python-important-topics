@@ -119,15 +119,17 @@ print(fruits_2)
 Let's understand this comprehention.  
 
 ```
+                        (expression)
+                             |
+            ---------------------------------------
 fruits_2 = [fruit if fruit != "banana" else "orange" for fruit in fruits]
-              ^   -------------------  ------------  -------------------
-              |            |                 |                |
-         (expression)      |                 |      (for loop to iterate items of the list)
+            -------------------------  ------------  -------------------
+                           |                 |                |
+                           |                 |      (for loop to iterate items of the list)
                            |                 |
                            |       (else insert "orange" i.e. if fruit is equal to banana then insert "orange" in place of "banana")
                            |
-                           |
-    (if fruit is not equal to "banana" then do nothing)
+    (iterate and enter fruit in the new list if fruit is not equal to "banana")
 ```
 
 > ## Nested list comprehention
