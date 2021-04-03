@@ -12,4 +12,4 @@
 - ### [Decorators](https://github.com/amitkumarsaw/Python-important-topics/tree/master/decorators)
 - ### [Monkey patching](https://github.com/amitkumarsaw/Python-important-topics/tree/master/monkey%20patching)
 - ### [Comprehention](https://github.com/amitkumarsaw/Python-important-topics/tree/master/Comprehensions)
-- ### [blah](https://github.com/amitkumarsaw/Python-important-topics/tree/master/map_filter_reduce_zip)
+- ### [map_filter_reduce_zip](https://github.com/amitkumarsaw/Python-important-topics/tree/master/map_filter_reduce_zip)
